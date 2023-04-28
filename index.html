@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .main-div {
+  position: relative;
+  height: 500px; /* set the height of your main div to your desired height */
+  width: 100%; /* set the width of your main div to 100% */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 50px; /* set the height of your arrows to your desired height */
+  width: 50px; /* set the width of your arrows to your desired width */
+  background-color: #ccc; /* set the background color of your arrows to your desired color */
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 20px; /* set the left position of your left arrow to your desired position */
+}
+
+.arrow-right {
+  right: 20px; /* set the right position of your right arrow to your desired position */
+}
+
+.sub-div {
+  height: 200px; /* set the height of your sub divs to your desired height */
+  width: 100%; /* set the width of your sub divs to 100% */
+  margin-top: 20px; /* set the margin-top of your sub divs to your desired spacing */
+}
+        </style>
+    </head>
+    <body>
+        <div class="main-div">
+            <img src="your-image-url.jpg" alt="Your Image" />
+            <div class="arrow arrow-left"></div>
+            <div class="arrow arrow-right"></div>
+          </div>
+
+          <div class="sub-div" style="background-color: #ff0000;">
+            <!-- Content for sub div 1 goes here -->
+          </div>
+          
+          <div class="sub-div" style="background-color: #00ff00;">
+            <!-- Content for sub div 2 goes here -->
+          </div>
+          
+          <div class="sub-div" style="background-color: #0000ff;">
+            <!-- Content for sub div 3 goes here -->
+          </div>
+          
+    </body>
+</html>
